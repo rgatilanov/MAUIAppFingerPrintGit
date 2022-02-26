@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFingerPrint.MainPage"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <StackLayout VerticalOptions="Center">
+        <Button Text="Autenticarse" BackgroundColor="Black" 
+                Clicked="btnFinger" />
+        <Label x:Name="resultado" Text="" 
+               HorizontalTextAlignment="Center"/>
+    </StackLayout>
+</ContentPage>
